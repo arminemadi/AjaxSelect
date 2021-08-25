@@ -1,0 +1,31 @@
+[{
+        "name": "Laptop",
+        "value": 1,
+        "path": "/images/Laptop.jpg"
+    },
+    {
+        "name": "Console",
+        "value": 2,
+        "path": "/images/Console.jpg"
+    },
+    {
+        "name": "PC",
+        "value": 3,
+        "path": "/images/PC.jpg"
+    },
+    {
+        "name": "Phone",
+        "value": 4,
+        "path": "/images/Phone.png"
+    },
+    {
+        "name": "Tablet",
+        "value": 5,
+        "path": "/images/Tablet.jpg"
+    },
+    {
+        "name": "Monitor",
+        "value": 6,
+        "path": "/images/Monitor.jpg"
+    }
+]

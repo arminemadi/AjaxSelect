@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ajax-select {
+    width: 100%;
+    position: relative;
+}
+
+.ajax-select-input {
+    width: 100%;
+}
+
+.hide-select {
+    display: none;
+}
+
+
+
+.ajax-select-options {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: opacity .3s;
+
+    /*  */
+    background-color: #efefef;
+}
+
+.ajax-select-options.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.ajax-select-option {
+    transition: all .3s;
+    user-select: none;
+    cursor: pointer;
+    /*  */
+    padding: .2rem;
+}
+
+.ajax-select-option.hover {
+    background-color: aquamarine;
+}
+
+.selected {
+    background-color: red;
+}
+
+.image-option {
+    display: flex;
+    align-items: center;
+}
+
+.image-option img {
+    width: 80px;
+}
+
+.image-option span {
+    padding: .3rem;
+}
